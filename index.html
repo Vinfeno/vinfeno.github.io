@@ -1,6 +1,9 @@
 <h1>Hi</h1>
 <p>stuff giond here</p>
-<form action="test.php">
-    <input type="text">
+<form action="test.php" method="POST">
+    <input type="text" name="test">
     <input type="submit">
 </form>
+<p><php>
+    echo $_POST['test'];
+</php></p>
